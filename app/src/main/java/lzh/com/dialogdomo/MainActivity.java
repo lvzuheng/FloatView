@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+
                 final FloatView floatView = new FloatView(MainActivity.this);
                 LinearLayout mFloatLayout = (LinearLayout) LayoutInflater.from(MainActivity.this).inflate(R.layout.layout_notice, null);
 
