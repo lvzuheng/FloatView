@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D9000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="未应答的对讲申请"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/intercomnotice_cancel"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:background="#ff000000"
+                android:text="X"
+                android:textColor="#ffffff"
+                android:textSize="28sp" />
+
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/intercomnotice_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
